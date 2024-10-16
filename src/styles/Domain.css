@@ -1,0 +1,57 @@
+.domain {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .domain h2 {
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .domain-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .domain-card {
+    width: 40%;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #61dafb;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    position: relative;
+    height: 150px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  }
+  
+  .domain-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .domain-card:nth-child(odd) {
+    align-self: flex-start; 
+  }
+  
+  .domain-card:nth-child(even) {
+    align-self: flex-end; 
+  }
+  
+  .domain-card h3 {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .domain-card p {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+  }
+  
+  

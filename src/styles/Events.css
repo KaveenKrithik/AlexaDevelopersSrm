@@ -1,0 +1,37 @@
+.events {
+    padding: 100px 50px;
+    overflow: hidden; 
+  }
+  
+
+    .events h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+        color: #20232a;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        margin-bottom: 30px;
+        animation: fadeInUp 1.5s ease;
+      }
+  
+  
+  .event-queue {
+    display: flex;
+    gap: 40px; 
+    transition: transform 1s ease-in-out; 
+  }
+  
+  .event-card {
+    background-color: #20232a;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  
